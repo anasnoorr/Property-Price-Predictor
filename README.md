@@ -2,6 +2,10 @@
 
 This project predicts property prices using a machine learning model built with Scikit-learn and XGBoost. It takes inputs like property type, location, city, bedrooms, baths, area, and purpose, and returns an estimated price range.
 
+Dataset
+The dataset used is from Zameen.com (2023), available on Kaggle, containing 99,500 property listings across various cities in Pakistan. It includes both categorical and numerical features relevant to real estate pricing.
+
+
 Features Used
 Categorical: property_type, location, city, purpose
 
