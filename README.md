@@ -16,16 +16,6 @@ Model is trained with XGBRegressor and saved using joblib.
 
 A prediction script loads the model and estimates the price range.
 
-
-SAMPLE PREDICTION 
-
-import pandas as pd
-import numpy as np
-import joblib
-
-
-model = joblib.load('house_price_pipeline.pkl')
-
 # --- Sample Prediction ---
 sample = pd.DataFrame({
     'property_type': ['House'],
